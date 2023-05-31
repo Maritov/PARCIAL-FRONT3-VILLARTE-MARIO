@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div>cambio de prueba commit</div>
+    <div>modificando para hacer un pull</div>
   )
 }
 
