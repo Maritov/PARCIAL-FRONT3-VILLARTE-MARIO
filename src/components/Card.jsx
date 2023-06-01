@@ -1,9 +1,14 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+import '../stylesheet/card.css';
 
-const Card = () => {
+
+const Card = ({ nombre, equipo }) => {
   return (
-    <div>esta es una Card</div>
-  )
-}
+    <div className="card">
+      <p>hola: {nombre}</p>
+      <p>Tu equippo es: {equipo}</p>
+    </div>
+  );
+};
 
 export default Card
